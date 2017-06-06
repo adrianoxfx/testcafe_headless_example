@@ -22,9 +22,9 @@ apt-get update &&\
 How to Run:
 ---
 ```bash
-Xvfb -ac -screen scrn 1280x2000x24 :9.0 &
-
-export DISPLAY=:9.0
+#Linux
+* Xvfb -ac -screen scrn 1280x2000x24 :9.0 &
+* export DISPLAY=:9.0
 
 node runner.js
 ```
