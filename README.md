@@ -29,3 +29,12 @@ How to Run:
 node runner.js
 ```
 
+How to Build and Run in a container:
+---
+```bash
+docker build -t qa .
+echo $WORKSPACE
+
+# Running Tests
+docker run qa
+```
