@@ -12,5 +12,5 @@ RUN apt-get update &&\
 
 COPY . /app
 
-CMD /bin/bash /app/run.sh
+CMD cd app && /bin/bash run.sh
 
