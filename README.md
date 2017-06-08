@@ -7,15 +7,17 @@ docker build -t qa .
 docker run qa
 ```
 
+
+
+MANUAL INSTALLATION:
+---
 Install TestCafe:
 ---
 `npm install testcafe`
 
-
 Install Nightmare Browser (Headless):
 ---
 `npm install testcafe-browser-provider-nightmare`
-
 
 Only on LINUX !!!
 ---
@@ -26,8 +28,7 @@ apt-get update &&\
     apt-get install -y libgtk2.0-0 libgconf-2-4 \
     libasound2 libxtst6 libxss1 libnss3 xvfb
 ```
-
-How to Run:
+How to Run Manually:
 ---
 ```bash
 #Linux
